@@ -3,7 +3,11 @@ repo_name: YzqBaymax/baymax002
 repo_url: https://github.com/YzqBaymax/baymax002
 use_directory_urls: true
 nav:
-  - 欢迎来到大白001: index.md
+  - 欢迎来到大白002: index.md
+  - 大一上: study1.md
+  - 大一下: study2.md
+  - 大二上: study3.md
+  - 大二下: study4.md
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -36,3 +40,20 @@ theme:
       quote: octicons/quote-16
 plugins:
   - search
+
+#[UI]
+theme:
+  name: material
+  palette:  
+    - scheme: default # 日间模式
+      primary: indigo # 上方的
+      accent: cyan # 链接等可交互元件的高亮色
+      toggle:
+        icon: material/brightness-7 # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
+      primary: black 
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: 切换至日间模式
